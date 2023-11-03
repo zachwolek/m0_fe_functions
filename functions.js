@@ -1,7 +1,7 @@
 // Defining Our Own Functions
 // For each exercise below, write the function according to the requirements. 
-// Call each method at least twice and store the return value in a variable. 
-// Use console.log() to see the return value in the console.
+// Store the return value of the function call in a variable, and use console.log() to see the return value in the console.
+// If a function takes parameters, call the function at least twice, passing different arguments each time.
 
 // 1: Write a function named greeting that returns a string with a general greeting. 
 
