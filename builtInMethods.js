@@ -34,12 +34,16 @@
 var string1 = "In Class Exercises"
 var string2 = "Check for Understanding"
 
-string1.includes("Class")
 //The argument "Class" is passed; includes() has one clear job which is to determine if the string "In Class Exercises" ends includes the string "Class"
 //The return value should be "true"
-string2.endsWith("anding")
+//The console.log() statement should print "true", because "In Class Exercises" includes the string "Class"
+console.log(string1.includes("Class"));
+
 //The argument "anding' is passed; endsWith() has one clear job which is to determine if the string "Check for Understanding" ends with the string "anding"
 //The return value should be "true"
+//The console.log() statement should print "true", because "Check For Understanding" ends with the string "anding"
+console.log(string2.endsWith("anding"));
+
 
 // EXAMPLE
 // The startsWith() method is called on the firstName variable, which stores the string object "Jeff". 
