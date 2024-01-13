@@ -28,7 +28,7 @@ console.log(addThreeNums(4, 2, 7));
 //The code was missing "the console.log" to present the solution.  While the function was itself was establishing a math fomula and returning it, the console.log needed to exist separately from the function. Without console.log returning the sum it will not show up for the reader
 
 // EX 3:
-function makeFreshPesto(){
+function makeFreshPesto() {
   console.log("Buy ingredients: basil, parmesan, romano, olive oil, pine nuts, garlic, salt, pepper");
   console.log("Pulse basil and pine nuts");
   console.log("Add garlic and cheeses");
@@ -38,6 +38,8 @@ function makeFreshPesto(){
 
 makeFreshPesto();
 
+
+// The code was formatted for easier reading. A line was created between the curly brace and the function for as a best practices measure, and the curly bracket below was formatted to present the function itself
 
 //  EX 4:
 function average(num1, num2) 
