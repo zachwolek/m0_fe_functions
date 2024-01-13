@@ -8,13 +8,19 @@
 // The return value is "hello world"
 "Hello World".toLowerCase();
 
-
+// The includes() method is called on the string "Hello World"
+// The argument "Hello" is passed; includes() has one clear job which is to determine if the string "Hello World" includes the string "Hello"
+// The return value should be "true"
 "Hello World".includes("Hello");
 
-
+// The endsWith() method is called on the string "Hello World"
+// The argument "Hello" is passed; endsWith() has one clear job which is to determine if the string "Hello World" ends with the string "Hello"
+// The return value should be "false"
 "Hello World".endsWith("Hello");
 
-
+// The "endsWith()" method is called on the string "Hello World"
+// The argument "rld" is passed; endsWith() has one clear job which is to determine if the string "Hello World" ends with the string "rld"
+// The return value should be "true"
 "Hello World".endsWith("rld");
 
 
