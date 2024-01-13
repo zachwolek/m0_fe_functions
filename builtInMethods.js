@@ -63,7 +63,15 @@ console.log(firstName.startsWith("J"));
 
 var arrayInteger = [2, 4, 6, 8, 10]
 var arrayName = ["Zach", "Laurel", "Kyle", "Charles", "Reese",]
-// I will use 
-console.log(arrayName.sort());
+
+// The reverse() method is calling on the variable arrayInteger, which stores an array of increasing even numbers
+// The reverse() method will also reverse the entry of integers in the array
+// The console.log() statement will print the integers in descending order 
 console.log(arrayInteger.reverse());
+
+// The sort() method is calling on the variable arrayName, which stores an array of Turing student names in our Zoom Studyhall
+// the sort() method will sort the names in alphabetical order
+// The console.log() statement will print the student names in ascending alphabetical order to the console
+console.log(arrayName.sort());
+
 
