@@ -22,9 +22,10 @@ var sum = first + second + third
 return sum;
       }
 
-addThreeNums(1, 2, 3);
-addThreeNums(4, 2, 7);
-//get diff
+console.log(addThreeNums(1, 2, 3));
+console.log(addThreeNums(4, 2, 7));
+
+//The code was missing "the console.log". Whereas the function was created to add three numbers, sum was defined and commanded to return, the console.log needed to exist separately from the function. Without console.log returning the sum it will note show up for the reader
 
 // EX 3:
 function makeFreshPesto(){
