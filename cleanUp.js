@@ -25,7 +25,7 @@ return sum;
 console.log(addThreeNums(1, 2, 3));
 console.log(addThreeNums(4, 2, 7));
 
-//The code was missing "the console.log". Whereas the function was created to add three numbers, sum was defined and commanded to return, the console.log needed to exist separately from the function. Without console.log returning the sum it will note show up for the reader
+//The code was missing "the console.log" to present the solution.  While the function was itself was establishing a math fomula and returning it, the console.log needed to exist separately from the function. Without console.log returning the sum it will not show up for the reader
 
 // EX 3:
 function makeFreshPesto(){
@@ -33,7 +33,8 @@ function makeFreshPesto(){
   console.log("Pulse basil and pine nuts");
   console.log("Add garlic and cheeses");
   console.log("Slowly pour in oil");
-  console.log("Season");    }
+  console.log("Season");    
+}
 
 makeFreshPesto();
 
@@ -46,3 +47,5 @@ var sum = num1 + num2;
 
 return avg
   }
+
+  console.log(average)
