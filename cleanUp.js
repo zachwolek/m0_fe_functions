@@ -8,9 +8,13 @@
 
 
 // EX 1:
-function askForName() { console.log("Hello, what is your name?") }
+function askForName() { 
+  console.log("Hello, what is your name?") 
+}
 
 askForName()
+// The improvements made were to clean up formatting. Instead of being one jumbled line the, console log has its own line to separate
+
 
 // EX 2:
 function addThreeNums(first, second, third) {
