@@ -48,4 +48,6 @@ var sum = num1 + num2;
 return avg
   }
 
-  console.log(average)
+  console.log(average(10, 20));
+
+  //The code was missing the arguent and had no information to process the math function. With arbitrary argument numbers such as 10 and 20, the function can now process an argument
