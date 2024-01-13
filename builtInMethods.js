@@ -31,6 +31,16 @@
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
 // Include comments above each method call explaining the impact and return value of that method.
 
+var string1 = "In Class Exercises"
+var string2 = "Check for Understanding"
+
+string1.includes("Class")
+//The argument "Class" is passed; includes() has one clear job which is to determine if the string "In Class Exercises" ends includes the string "Class"
+//The return value should be "true"
+string2.endsWith("anding")
+//The argument "anding' is passed; endsWith() has one clear job which is to determine if the string "Check for Understanding" ends with the string "anding"
+//The return value should be "true"
+
 // EXAMPLE
 // The startsWith() method is called on the firstName variable, which stores the string object "Jeff". 
 // The startsWith() method returns true if the data in the firstName variable starts with the argument passed in.
