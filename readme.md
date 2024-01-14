@@ -9,9 +9,9 @@
 ## Directions
 
 Read the directions and complete all activities in each file, in this order:
-- `cleanUp.js`
-- `builtInMethods.js`
-- `functions.js`
+- `cleanUp.js` ✓
+- `builtInMethods.js` ✓
+- `functions.js`✓
 - `selfEval.md`
 
 Based on what you know about Git workflow, make commits as you see fit.
